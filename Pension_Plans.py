@@ -13,7 +13,7 @@ from groq import Groq
 
 # Initialize the Groq client with your API key
 client = Groq(
-    api_key="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"
+    api_key=""
 )
 
 # Example hospital name lists
@@ -57,7 +57,7 @@ import numpy as np
 from huggingface_hub import login
 
 # Login with your token
-login(token="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")
+login(token="")
 
 # Initialize the model
 model = SentenceTransformer('all-mpnet-base-v2')
@@ -499,3 +499,4 @@ All_DB = master_df
 
 All_DB = All_DB.drop_duplicates()
 ##################################################################################################################
+
